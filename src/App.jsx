@@ -16,7 +16,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/React_pro_two/">
       <Header />
 
       <Routes>
